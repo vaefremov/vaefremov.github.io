@@ -87,7 +87,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">output_ip.h File Reference</div>  </div>
@@ -95,6 +94,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="contents">
 <div class="textblock"><code>#include &lt;ostream&gt;</code><br />
 <code>#include &lt;iomanip&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;list&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for output_ip.h:</div>
 <div class="dyncontent">
@@ -121,35 +122,24 @@ This graph shows which files directly or indirectly include this file:</div>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_o_t_u_s"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_o_t_u_s.html">OTUS</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespace_o_t_u_s_1_1detail"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_o_t_u_s_1_1detail.html">OTUS::detail</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a1bf06466fe1601e00b27989587981c97"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a1bf06466fe1601e00b27989587981c97"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_o_t_u_s.html#a1bf06466fe1601e00b27989587981c97">OTUS::is_iterable</a> = decltype(detail::is_iterable_impl&lt; T &gt;(0))</td></tr>
-<tr class="separator:a1bf06466fe1601e00b27989587981c97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a4a70ae2c4347397db35353228a8fa476"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a4a70ae2c4347397db35353228a8fa476"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_o_t_u_s_1_1detail.html#a4a70ae2c4347397db35353228a8fa476">OTUS::detail::is_iterable_impl</a> (int) -&gt; decltype(begin(std::declval&lt; T &amp; &gt;())!=end(std::declval&lt; T &amp; &gt;()),++std::declval&lt; decltype(begin(std::declval&lt; T &amp; &gt;()))&amp; &gt;(),*begin(std::declval&lt; T &amp; &gt;()), std::true_type</td></tr>
-<tr class="separator:a4a70ae2c4347397db35353228a8fa476"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a76fabc491542782624b1a412779899"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a4a76fabc491542782624b1a412779899"><td class="memTemplItemLeft" align="right" valign="top">std::false_type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_o_t_u_s_1_1detail.html#a4a76fabc491542782624b1a412779899">OTUS::detail::is_iterable_impl</a> (...)</td></tr>
-<tr class="separator:a4a76fabc491542782624b1a412779899"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1dd3757ea213d648cc593740feb54cec"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a1dd3757ea213d648cc593740feb54cec"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; std::is_integral&lt; T &gt;::value, void &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_o_t_u_s.html#a1dd3757ea213d648cc593740feb54cec">OTUS::print_ip</a> (T ip, std::ostream &amp;out, bool add_endline=true)</td></tr>
-<tr class="separator:a1dd3757ea213d648cc593740feb54cec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28020a2dd8464f78d14325026bce5cde"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a28020a2dd8464f78d14325026bce5cde"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; is_iterable&lt; T &gt;::value, void &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_o_t_u_s.html#a28020a2dd8464f78d14325026bce5cde">OTUS::print_ip</a> (T const &amp;ip, std::ostream &amp;out, bool add_endline=true)</td></tr>
-<tr class="separator:a28020a2dd8464f78d14325026bce5cde"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71f100275206594eec086ac25323044f"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:a71f100275206594eec086ac25323044f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_o_t_u_s.html#a71f100275206594eec086ac25323044f">OTUS::print_ip&lt; std::string &gt;</a> (std::string const &amp;ip, std::ostream &amp;out, bool add_endline)</td></tr>
-<tr class="separator:a71f100275206594eec086ac25323044f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79721c1e49a1f11fc9cf21a2ac1a838f"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a79721c1e49a1f11fc9cf21a2ac1a838f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_o_t_u_s.html#a79721c1e49a1f11fc9cf21a2ac1a838f">OTUS::print_ip</a> (std::tuple&lt; T, T, T, T &gt; const &amp;ip, std::ostream &amp;out, bool add_endline=true)</td></tr>
-<tr class="separator:a79721c1e49a1f11fc9cf21a2ac1a838f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9439c99332741288ff219f374e4e1f2e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a9439c99332741288ff219f374e4e1f2e"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; std::is_integral&lt; T &gt;::value, void &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_o_t_u_s.html#a9439c99332741288ff219f374e4e1f2e">OTUS::print_ip</a> (T ip, std::ostream &amp;out)</td></tr>
+<tr class="separator:a9439c99332741288ff219f374e4e1f2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10fbd010d18c4b1017d24ffd1d93c00b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a10fbd010d18c4b1017d24ffd1d93c00b"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; std::is_same&lt; typename std::vector&lt; typename T::value_type &gt;, T &gt;::value||std::is_same&lt; typename std::list&lt; typename T::value_type &gt;, T &gt;::value, void &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_o_t_u_s.html#a10fbd010d18c4b1017d24ffd1d93c00b">OTUS::print_ip</a> (T const &amp;ip, std::ostream &amp;out)</td></tr>
+<tr class="separator:a10fbd010d18c4b1017d24ffd1d93c00b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e4b127402702d49e89355de4cc1d4e7"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a3e4b127402702d49e89355de4cc1d4e7"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if_t&lt; std::is_same&lt; T, std::basic_string&lt; typename T::value_type &gt; &gt;::value, void &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_o_t_u_s.html#a3e4b127402702d49e89355de4cc1d4e7">OTUS::print_ip</a> (T ip, std::ostream &amp;out)</td></tr>
+<tr class="separator:a3e4b127402702d49e89355de4cc1d4e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00048a47897dd67a64ef824ccf9d724f"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a00048a47897dd67a64ef824ccf9d724f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_o_t_u_s.html#a00048a47897dd67a64ef824ccf9d724f">OTUS::print_ip</a> (std::tuple&lt; T, T, T, T &gt; const &amp;ip, std::ostream &amp;out)</td></tr>
+<tr class="separator:a00048a47897dd67a64ef824ccf9d724f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34b90c77c04144be522fa1566e55180d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a34b90c77c04144be522fa1566e55180d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_o_t_u_s.html#a34b90c77c04144be522fa1566e55180d">OTUS::print_ip_with_endline</a> (T ip, std::ostream &amp;out)</td></tr>
+<tr class="separator:a34b90c77c04144be522fa1566e55180d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
