@@ -1,0 +1,4 @@
+<map id="OTUS::BaseShape" name="OTUS::BaseShape">
+<area shape="rect" id="node2" href="$class_o_t_u_s_1_1_line.html" title="OTUS::Line" alt="" coords="5,80,97,107"/>
+<area shape="rect" id="node3" href="$class_o_t_u_s_1_1_point.html" title="OTUS::Point" alt="" coords="122,80,221,107"/>
+</map>

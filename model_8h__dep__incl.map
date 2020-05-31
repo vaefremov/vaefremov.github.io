@@ -1,0 +1,11 @@
+<map id="include/model.h" name="include/model.h">
+<area shape="rect" id="node2" href="$controller_8h.html" title="include/controller.h" alt="" coords="207,80,350,107"/>
+<area shape="rect" id="node4" href="$main_8cpp.html" title="src/main.cpp" alt="" coords="360,155,464,181"/>
+<area shape="rect" id="node5" href="$test__controller_8cpp.html" title="tests/test_controller.cpp" alt="" coords="5,155,181,181"/>
+<area shape="rect" id="node6" href="$ostream__view_8h.html" title="include/ostream_view.h" alt="" coords="441,80,612,107"/>
+<area shape="rect" id="node9" href="$model_8cpp.html" title="src/model.cpp" alt="" coords="636,80,748,107"/>
+<area shape="rect" id="node10" href="$test__model_8cpp.html" title="tests/test_model.cpp" alt="" coords="772,80,929,107"/>
+<area shape="rect" id="node3" href="$controller_8cpp.html" title="src/controller.cpp" alt="" coords="205,155,336,181"/>
+<area shape="rect" id="node7" href="$ostream__view_8cpp.html" title="src/ostream_view.cpp" alt="" coords="655,155,814,181"/>
+<area shape="rect" id="node8" href="$test__view_8cpp.html" title="tests/test_view.cpp" alt="" coords="489,155,631,181"/>
+</map>

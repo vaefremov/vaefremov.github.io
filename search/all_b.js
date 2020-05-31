@@ -1,10 +1,9 @@
 var searchData=
 [
-  ['test',['TEST',['../test__integral_8cpp.html#a6efa50983b8ddee2064e912b4f014879',1,'TEST(Utilities, integral_int):&#160;test_integral.cpp'],['../test__integral_8cpp.html#a3cf3d51245cbea651eff8009454256a9',1,'TEST(Utilities, integral_int2):&#160;test_integral.cpp'],['../test__integral_8cpp.html#a5e04a46e0be510bbc2f377a5a8ba38e8',1,'TEST(Utilities, integral_char):&#160;test_integral.cpp'],['../test__integral_8cpp.html#ac2f8a475ed4214c0a703ddd7f7456bed',1,'TEST(Utilities, integral_short):&#160;test_integral.cpp'],['../test__integral_8cpp.html#a171d9a8bf9014867986b3783f74d4817',1,'TEST(Utilities, integral_long):&#160;test_integral.cpp'],['../test__iterables_8cpp.html#acd446d9d3765487d255e864df9a89130',1,'TEST(Utilities, vector_int):&#160;test_iterables.cpp'],['../test__iterables_8cpp.html#a97d3d9a73d023ff668ef279a3c8cc42b',1,'TEST(Utilities, list_int):&#160;test_iterables.cpp'],['../test__string_8cpp.html#a5ba1a7ea47d1b034055faa73f968a024',1,'TEST(Utilities, string):&#160;test_string.cpp'],['../test__string_8cpp.html#aa7a971c1ea2bd009b814255a73aec871',1,'TEST(Utilities, string_with_endline):&#160;test_string.cpp'],['../test__tuple_8cpp.html#aef9c5ae46225eeb58c885bce20ac282b',1,'TEST(Utilities, tuple_int):&#160;test_tuple.cpp'],['../test__tuple_8cpp.html#a108d4321cbc0127a499c96ef37ef201c',1,'TEST(Utilities, tuple_int_more_than_4):&#160;test_tuple.cpp'],['../test__tuple_8cpp.html#a9a9f35c43aa65ae78691ff2d9f04dbd6',1,'TEST(Utilities, tuple_char):&#160;test_tuple.cpp'],['../test__tuple_8cpp.html#a9e5edbc3d66e2b23a5b3dae746a0ca90',1,'TEST(Utilities, tuple_1int):&#160;test_tuple.cpp']]],
-  ['test_5fintegral_2ecpp',['test_integral.cpp',['../test__integral_8cpp.html',1,'']]],
-  ['test_5fiterables_2ecpp',['test_iterables.cpp',['../test__iterables_8cpp.html',1,'']]],
-  ['test_5fstring_2ecpp',['test_string.cpp',['../test__string_8cpp.html',1,'']]],
-  ['test_5ftuple_2ecpp',['test_tuple.cpp',['../test__tuple_8cpp.html',1,'']]],
-  ['tupleprinter',['TuplePrinter',['../struct_o_t_u_s_1_1_tuple_printer.html',1,'OTUS']]],
-  ['tupleprinter_3c_20tuple_2c_201_20_3e',['TuplePrinter&lt; Tuple, 1 &gt;',['../struct_o_t_u_s_1_1_tuple_printer_3_01_tuple_00_011_01_4.html',1,'OTUS']]]
+  ['otus_20homework_205',['OTUS homework 5',['../md_README.html',1,'']]],
+  ['operator_3c_3c',['operator&lt;&lt;',['../namespace_o_t_u_s.html#abb4c3dcb8ac84dde97b6297580012546',1,'OTUS::operator&lt;&lt;(std::ostream &amp;out, DPoint&lt; T &gt; pt)'],['../namespace_o_t_u_s.html#a8316f279b9d60d4ae58606e7d0c13da8',1,'OTUS::operator&lt;&lt;(std::ostream &amp;out, Colour c)']]],
+  ['ostream_5fview_2ecpp',['ostream_view.cpp',['../ostream__view_8cpp.html',1,'']]],
+  ['ostream_5fview_2eh',['ostream_view.h',['../ostream__view_8h.html',1,'']]],
+  ['ostreamview',['OstreamView',['../class_o_t_u_s_1_1_ostream_view.html',1,'OTUS']]],
+  ['otus',['OTUS',['../namespace_o_t_u_s.html',1,'']]]
 ];
