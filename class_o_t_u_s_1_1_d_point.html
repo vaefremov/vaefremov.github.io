@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>print_ip: OTUS::DPoint&lt; T, typename &gt; Class Template Reference</title>
+<title>vect_edit: OTUS::DPoint&lt; T, typename &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,9 +23,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">print_ip
+   <div id="projectname">vect_edit
    </div>
-   <div id="projectbrief">The OTUS Homework 4</div>
+   <div id="projectbrief">The OTUS Homework 5</div>
   </td>
  </tr>
  </tbody>
@@ -101,8 +101,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8a6335ed711b4c57f7f31759e917106a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_t_u_s_1_1_d_point.html#a8a6335ed711b4c57f7f31759e917106a">DPoint</a> ()=default</td></tr>
-<tr class="separator:a8a6335ed711b4c57f7f31759e917106a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bb676e6430658df963c93083dcf1434"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_t_u_s_1_1_d_point.html#a5bb676e6430658df963c93083dcf1434">DPoint</a> ()=delete</td></tr>
+<tr class="separator:a5bb676e6430658df963c93083dcf1434"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d1f001ba70b3587fbd57b1c3a5342cc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_t_u_s_1_1_d_point.html#a1d1f001ba70b3587fbd57b1c3a5342cc">~DPoint</a> ()=default</td></tr>
 <tr class="separator:a1d1f001ba70b3587fbd57b1c3a5342cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0a9cb5397551d79cc44148f17e4d73c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_t_u_s_1_1_d_point.html#ae0a9cb5397551d79cc44148f17e4d73c">DPoint</a> (T const &amp;<a class="el" href="class_o_t_u_s_1_1_d_point.html#a6d10fb39793172c880fe988d9408ebd6">x</a>, T const &amp;<a class="el" href="class_o_t_u_s_1_1_d_point.html#a3b6bbb48cf1e4bdbb59ce3db37cdd6a3">y</a>) noexcept</td></tr>
@@ -122,7 +122,7 @@ class OTUS::DPoint&lt; T, typename &gt;</h3>
 
 <p>Small utility class to represent points on a plane. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a8a6335ed711b4c57f7f31759e917106a"></a>
+<a class="anchor" id="a5bb676e6430658df963c93083dcf1434"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -140,7 +140,7 @@ template&lt;typename T = double, typename  = std::enable_if_t&lt;std::is_floatin
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -268,6 +268,13 @@ template&lt;typename T = double, typename  = std::enable_if_t&lt;std::is_floatin
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Method to find if the </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>is near the current point with the specified accuracy.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Currently, the default accuracy is the machine epsilon, which is wrong: we should scale the accuracy to the max magnitude of the points. The current implementation may require setting the accuracy by hand. </p>
 
 </div>
 </div>
